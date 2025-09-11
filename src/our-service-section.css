@@ -1,0 +1,48 @@
+#our-service{
+    padding: 50px;
+    text-align: center;
+}
+#our-service h2{
+    font-size: 600;
+    border-bottom:4px solid var(--primary-color);
+    width: 18%;
+    font-size: var(--font-size-l);
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#Services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+}
+.service{
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 9px;   
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.package-info{
+    display:flex;
+    justify-content: space-between;
+
+}
+.package-price{
+    color: var(--primary-color);
+}
+.package-description{
+    text-align: left;
+}
+.package-servicesIncluded{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.package-service-qualities{
+    border-radius: 9px;
+    padding: var(--padding-s);
+    color: white;
+    background-color: var(--primary-color);
+    font-size: 10px;
+}

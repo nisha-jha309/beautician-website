@@ -1,0 +1,44 @@
+#whyUs{
+    padding: 50px;
+    display: grid;
+    grid-template-columns:  0.8fr 1fr;
+    gap: 70px;
+}
+#whyUs img{
+    object-fit: cover;
+    width: 100%;
+    background-image: url("src/assets/why-us.jpg");
+    height:400px;
+    background-position: 50% 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#WhyUs-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#WhyUs-text h2{
+    font-size: var(--font-size-l);
+    border-bottom: 4px solid var(--primary-color);
+    width: 69%;
+}
+#WhyUs-text p{
+    font-size: var(--font-size-s);
+    line-height: 1.7;
+}
+#WhyUs-text ul{
+list-style-type: none;
+}
+#WhyUs-text ul li{
+    font-size: var(--font-size-s);
+    margin-bottom: 12px;
+}
+#WhyUs-text ul li::before{
+    content: "\f058";
+font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: var(--primary-color);
+
+}

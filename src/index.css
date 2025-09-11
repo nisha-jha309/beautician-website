@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"display Playfair",sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+:root {
+  --font-size-xs: 0.875rem;
+  --font-size-s: 1.1rem;
+  --font-size-md: 1.5rem;
+  --font-size-l: 2rem;
+  --font-size-xl: 2.5rem;
+  --font-size-xxl: 3rem;
+  --padding-s:5px 10px;
+  --padding-md:10px 15px;
+  --padding-l:15px 20px;
+  --padding-xl:20px 25px;
+  --primary-color:#ff4081;
+  --secondary-color:gold;
+  --tertiary-color:skyblue;
+  --primary-background-color:rgb(251, 193, 159);
+}
+

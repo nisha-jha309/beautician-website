@@ -1,0 +1,18 @@
+.mini-footer {
+  background-color: #fbcbcb;
+  padding: 15px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #555;
+}
+
+.mini-footer a {
+  color: #555;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.mini-footer a:hover {
+  text-decoration: underline;
+}

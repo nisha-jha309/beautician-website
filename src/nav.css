@@ -1,0 +1,25 @@
+.Navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+    padding: var(--font-size-s);
+    z-index: 1000;
+     position: sticky;
+  top: 0;
+  left: 0;
+
+}
+.nav-list{
+  display: flex;
+  gap: 30px;
+  color: white;
+  font-size: var(--font-size-s);
+}
+.nav-list div{
+    cursor: pointer;
+}
+.nav-list div:hover{
+  color: var(--primary-color);
+}

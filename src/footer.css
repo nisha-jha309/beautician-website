@@ -1,0 +1,39 @@
+#footer{
+    display: flex;
+    flex-direction: column;
+}
+#footer-brand p{
+    color: white;
+}
+#footer-up{
+    background-color: rgb(29, 29, 29);
+    padding:30px 18px ;
+    display: grid;
+    grid-template-columns:0.7fr 0.5fr 0.5fr 0.5fr;
+    gap: 30px;
+}
+#copyright-section{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:15px;
+}
+.footer-list,#opening-time{
+    display: flex;
+    flex-direction: column;
+}
+.footer-list h2,#opening-time h2{
+    font-size: var(--font-size-md);
+    font-weight: 600;
+    color: whitesmoke;
+    margin-bottom: 18px;
+}
+.footer-list a,#opening-time p{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: var(--font-size-s);
+}
+.footer-list a:hover{
+    color: grey;
+}

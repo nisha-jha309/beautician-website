@@ -1,0 +1,49 @@
+#booking-form-container{
+    padding: 50px;
+    text-align: center;
+}
+#booking-form-container>h2{
+font-weight: 600;
+color: var(--primary-color);
+font-size: var(--font-size-l);
+margin-bottom: 30px;
+}
+.booking-form{
+    margin:0 auto;
+    width: 50%;
+    padding: 30px;
+    border: 1px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border-radius:9px;
+}
+.form-group{
+    position: relative;
+}
+form input,select{
+    width: 100%;
+    padding: var(--padding-md);
+}
+form input:focus, select:focus{
+    outline: none;
+}
+.form-group:focus-within label{
+color: grey;
+}
+.form-group label{
+    position: absolute;
+    background-color: white;
+    top: -8px;
+    font-size: 14px;
+    left: 16px;
+    color: black;
+}
+#confirm-booking-btn{
+    padding: var(--padding-md);
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 9px;
+    color: white;
+    font-weight: 600;
+}
