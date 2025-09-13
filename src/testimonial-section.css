@@ -5,7 +5,7 @@
 #testimonial>h2{
     font-weight: 600;
     margin-bottom:50px;
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-l);
     /* color: var(--primary-color); */
     position: relative;
 }
@@ -52,4 +52,10 @@
 }
 .review{
     text-align: left;
+    font-size: var(--font-size-s);
+}
+@media only screen  and (max-width:768px) {
+   #testimonial-container{
+    grid-template-columns: repeat(1,1fr);
+   }
 }

@@ -69,3 +69,11 @@ z-index: 2;
     text-decoration: none;
     color: var(--primary-color);
 }
+
+@media only screen and (max-width:768px){
+    #about-text h2{
+width: 25%;    }
+    #about-text p{
+        font-size: 14px;
+    }
+}
