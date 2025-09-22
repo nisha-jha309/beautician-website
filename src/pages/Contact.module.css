@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* hero section */
+.heroSection {
+  background: url("src/assets/brush-bg.jpg") no-repeat center/cover;
+  height: 40vh;
+  position: relative;
+  display: grid;
+  place-content: center;
+}
+
+.heroSectionText {
+  z-index: 2;
+  text-align: center;
+}
+
+.heroSectionText h2 {
+  font-size: 78px;
+  color: white;
+}
+
+.heroSectionText p {
+  font-size: 20px;
+  color: white;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.683);
+  width: 100%;
+  height: 100%;
+}
+
+/* contact section */
+.contactSection {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  gap: 70px;
+}
+
+/* form section */
+.formSection h2 {
+  font-size: var(--font-size-l);
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.contactForm {
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 300px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  border-radius: 9px;
+  outline: none;
+  border: 1px solid black;
+  padding: var(--padding-md);
+}
+
+.submit {
+  color: white;
+  background-color: var(--primary-color);
+  font-weight: 600;
+  width: 100%;
+  display: block;
+  border: none;
+  border-radius: 9px;
+  padding: var(--padding-md);
+}
+
+/* info section */
+.infoSection h2 {
+  font-size: var(--font-size-l);
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: var(--font-size-s);
+}
+
+.info i {
+  color: black;
+}
+
+/* follow us section */
+.followSection {
+  padding: 50px;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.followSection h2 {
+  font-size: var(--font-size-xl);
+  color: var(--primary-color);
+  margin-bottom: 30px;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 40px;
+}
+
+.socialLinks a {
+  border-radius: 50%;
+  border: 1px solid black;
+  color: black;
+  font-size: var(--font-size-xl);
+  padding: 10px;
+}
+
+.socialLinks a:hover {
+  color: white;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
