@@ -32,6 +32,7 @@ export default function About() {
       <section className={styles.timeline}>
         <h2>Our Journey</h2>
         <div className={styles.timelineEvents}>
+            <hr/>
           <div className={styles.event}>
             <div className={styles.eventCircle}><i class="fa-solid fa-scissors"></i></div>
             <span className={styles.year}>2020</span>
@@ -50,7 +51,7 @@ export default function About() {
           <div className={styles.event}>
   <div className={styles.eventCircle}><i class="fa-solid fa-heart"></i></div>
   <span className={styles.year}>2025</span>
-  <p>2000+ Happy Clients 🥳</p>
+  <p>2000+ Happy Clients</p>
 </div>
         </div>
       </section>
@@ -60,17 +61,17 @@ export default function About() {
         <h2>Meet Our Experts</h2>
         <div className={styles.teamGrid}>
           <div className={styles.teamCard}>
-            <img src="https://via.placeholder.com/150" alt="Stylist 1" />
+            <img src="src\assets\stylish1.jpg" alt="Stylist 1" />
             <h3>Alice Sharma</h3>
             <p>Hair Specialist</p>
           </div>
           <div className={styles.teamCard}>
-            <img src="https://via.placeholder.com/150" alt="Stylist 2" />
+            <img src="src\assets\stylish2.jpg" alt="Stylist 2" />
             <h3>Rina Kapoor</h3>
             <p>Skin & Facial Expert</p>
           </div>
           <div className={styles.teamCard}>
-            <img src="https://via.placeholder.com/150" alt="Stylist 3" />
+            <img src="src\assets\stylish3.jpg" alt="Stylist 3" />
             <h3>Neha Jain</h3>
             <p>Manicure & Pedicure</p>
           </div>
