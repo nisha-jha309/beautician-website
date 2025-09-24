@@ -25,10 +25,10 @@ export default function Testimonial(){
   },
   {
     "id": 4,
-    "customerName": "Amit Verma",
+    "customerName": "Amrita Verma",
     "ratingStars": 5,
     "review": "Highly recommend this salon! Every treatment feels personalized and perfect.",
-    "customerPic": "src/assets/avatar4.png"
+    "customerPic": "src/assets/avatar1.png"
   }
 ]
 

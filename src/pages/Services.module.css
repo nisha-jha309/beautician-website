@@ -44,3 +44,47 @@ font-size:20px;
          padding: var(--padding-md);
     border-radius: 18px;
 }
+.packages{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+.packageCard{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.165);
+    padding: 30px;
+    border-radius: 18px;
+}
+.packageCard img{
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+.packageCardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.packageCardContent ul{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    list-style-type:none;
+   
+}
+.packageCardContent ul li{
+     padding: var(--padding-md);
+    color: var(--primary-color);
+    font-size:14px;
+    font-weight: 500;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.215);
+    border-radius: 18px;
+}
+
+@media only screen and (max-width:900px;){
+    .packages{
+        grid-template-columns:1fr;
+    }
+}
